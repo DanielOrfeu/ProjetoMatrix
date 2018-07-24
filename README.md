@@ -1,2 +1,2 @@
 # ProjetoMatrix
-Exercícios desenvolvidos no decorrer do Projeto Matrix.
+Exercícios desenvolvidos no decorrer do Projeto Matrix 3.0.
