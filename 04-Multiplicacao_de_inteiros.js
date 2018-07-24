@@ -32,7 +32,7 @@ function somarImpares(n){
   return res;
 }
 
-function multiplicarInteiros(n){
+function multiplicarInteiros(n){ //Esta função não se baseia em fatorial de "n" (n!), tendo em mente que uma entrada de n===0 neste caso retorna 0, não 1.
   if(checarNumeroValido(n)){
     var res;
     n===0? res=0 : res=1;
