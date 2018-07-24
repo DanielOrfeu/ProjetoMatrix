@@ -4,8 +4,12 @@ function checarNumeroDecimal(n){
   return (n===Math.trunc(n));
 }
 
+function checarNumeroNegativo(n){
+  if(n>=0) return checarNumeroDecimal(n);
+}
+
 function checarNumeroValido(n){
-  if(typeof n==="number") return checarNumeroDecimal(n);
+  if(typeof n==="number") return checarNumeroNegativo(n);
 }
 
 function somarInteiros(n){
